@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:ng="http://angularjs.org" id="ng-app" data-ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Vanilla AngularJS</title>
+
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="assets/css/bootstrap-additions.min.css" rel="stylesheet">
+		<link href="assets/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+		<link href="assets/css/wpe.css" rel="stylesheet">
+
+		<!--[if lt IE 9]>
+		<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body data-ng-cloak class="ng-cloak">
+
+		<section data-ng-include="'assets/angular/partials/nav.html'"></section>
+		<section data-ui-view=""></section>
+
+		<script src="assets/bower_components/underscore/underscore.js"></script>
+		<script src="assets/bower_components/Snap.js/snap.js"></script>
+		<script src="assets/bower_components/angular/angular.js"></script>
+		<script src="assets/bower_components/angular-strap/dist/angular-strap.min.js"></script>
+		<script src="assets/bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
+		<script src="assets/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+		<script src="assets/js/app.js"></script>
+
+		<script src="assets/angular/controllers/defaultCtrl.js"></script>
+		<script src="assets/angular/controllers/welcomeCtrl.js"></script>
+
+	</body>
+</html>
