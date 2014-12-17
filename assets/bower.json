@@ -1,0 +1,26 @@
+{
+  "name": "ANgularVanilla",
+  "version": "0.1.0",
+  "homepage": "",
+  "authors": [
+    "@david-potgieter"
+  ],
+  "description": "Vanilla AngularJS Starting Point",
+  "main": "app.js",
+  "license": "NONE",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.7.0",
+    "angular-strap": "~2.1.4",
+    "angular-loading-bar": "~0.6.0",
+    "angular-ui-router": "~0.2.13",
+    "Snap.js": "https://github.com/jakiestfu/Snap.js.git#~1.9.3",
+  }
+}
